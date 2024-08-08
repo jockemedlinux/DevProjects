@@ -60,7 +60,7 @@ if ($Result -eq [System.Windows.MessageBoxResult]::Yes) {
 
 compile said script with the help of PS2EXE:  
 ```powershell
-Invoke-PS2EXE -inputFile .\pre-clean-disk.ps1 -outputFile .\pre-clean-disk.exe -NoOutput -NoConsole -Icon D:\system\icons\mdt.ico
+Invoke-PS2EXE -inputFile .\pre-clean-disk.ps1 -outputFile .\pre-clean-disk.exe -NoOutput -NoConsole -Icon D:\system\icons\mdt.ico -title 'PCD v0.1' -description 'Simple binary to ask user at start of MDT deploy to erase disk 0' -company 'JML - @jockemedlinux' -product "PCD v0.1" -version "0.1" -copyright "COPYRIGHT" -trademark 'SE' -verbose
 ```
 
 winpeshl.ini settings:  
