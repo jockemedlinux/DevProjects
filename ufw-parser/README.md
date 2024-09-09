@@ -1,7 +1,7 @@
 # ufw-parser
 A python-based comprehensive UFW-log parser.
 
-![bild](https://github.com/jockemedlinux/ufw-parser/assets/123998153/f31d569d-c7c8-4311-bd1b-2b1afc321ca9)
+![](_resources/ufw-parser.png)
 
 A Uncomplicated FireWall (UFW) Log-parser.
 ---------------------------------------------------------------------------
